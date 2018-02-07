@@ -1,0 +1,55 @@
+{
+  "name": "koa2-simple-ws-boiler",
+  "version": "0.0.1",
+  "description": "A simple boilerplate for writing small Koa web services",
+  "keywords": [
+    "koa",
+    "koa2",
+    "boilerplate",
+    "api",
+    "ws"
+  ],
+  "main": "index.js",
+  "author": "Andrew Avdeev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aandrewww/koa2-simple-ws-boiler"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint -c ./.eslintrc .",
+    "test": "echo \"All ok!\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.0",
+    "dotenv": "^4.0.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-helmet": "^3.3.0",
+    "koa-respond": "^1.0.1",
+    "koa-router": "^7.2.1",
+    "koa-validate": "^1.0.7",
+    "koa2-cors": "^2.0.3",
+    "lodash": "^4.17.4",
+    "log4js": "^2.3.12",
+    "mongoose": "^4.11.8",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "husky": "^0.15.0-rc.6",
+    "prettier": "^1.5.3"
+  }
+}
