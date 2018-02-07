@@ -1,12 +1,12 @@
 # Koa Boilerplate
 
-👏 A simple boilerplate for writing Koa web services
+👏 A simple boilerplate for writing small Koa web services
 
 
 ## Getting Started
 
 ```zsh
-$ git clone https://github.com/aandrewww/koa2-ws-boilerplate your-project-name
+$ git clone https://github.com/aandrewww/koa2-simple-ws-boiler your-project-name
 $ cd your-project-name
 $ rm -rf .git && git init
 ```
